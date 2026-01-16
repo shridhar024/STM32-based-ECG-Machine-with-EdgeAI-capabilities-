@@ -99,6 +99,6 @@ It is **not a medical diagnostic device** and should not be used for clinical di
 
 ---
 
-## 🔗 Author
+## 🔗 Author ( Shridhar Mangsule)
 
 Developed as a final-year engineering project focusing on **embedded systems, biomedical instrumentation, and edge AI**.
