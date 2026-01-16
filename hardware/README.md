@@ -65,16 +65,30 @@ The RL electrode is used as a reference to:
 ```
 ECG Electrodes
       ↓
-Analog Front-End (AD8386)
+ECG Analog Front-End (AD8232 / AD8386)
       ↓
-Analog ECG Output
+Analog ECG Signal
       ↓
-STM32 ADC (12-bit)
+STM32F446RE Microcontroller
+ ┌─────────────────────────────────┐
+ │  • Timer Configuration (250 Hz) │
+ │  • ADC Acquisition              │
+ │  • Digital Filtering            │
+ │  • Signal Quality Check         │
+ │  • Feature Extraction           │
+ │  • Edge AI Classification       │
+ │  • Alert & Decision Logic       │
+ └─────────────────────────────────┘
       ↓
-Digital ECG Samples
+Display / Output Interface
+(LCD / Serial / Logging)
+
 ```
 
 ---
+<img width="768" height="512" alt="ChatGPT Image Jan 17, 2026, 12_42_50 AM" src="https://github.com/user-attachments/assets/75d8070e-bbb2-4d46-ba88-ae391b4561f7" />
+
+
 
 ## ⚙️ ADC Configuration Summary
 
