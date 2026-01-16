@@ -55,6 +55,8 @@ The RL electrode is used as a reference to:
 * Reduce common-mode interference
 * Improve signal stability
 * Suppress power-line noise (50/60 Hz)
+  <img width="1000" height="806" alt="image" src="https://github.com/user-attachments/assets/fc65f706-23da-4ed1-84bb-fa90393aae44" />
+
 
 ---
 
