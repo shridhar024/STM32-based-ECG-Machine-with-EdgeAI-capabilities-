@@ -59,7 +59,7 @@ These features are used as inputs to the classification logic.
 ## 🤖 Model Approach
 
 * **Training Environment:** Python
-* **Model Type:** Lightweight ML / rule-assisted classifier
+* **Model Type:** 1D CNN
 * **Training Data:** Public ECG datasets (e.g., MIT-BIH, processed)
 * **Deployment Target:** STM32 embedded system
 
